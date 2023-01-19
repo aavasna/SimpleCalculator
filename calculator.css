@@ -1,0 +1,58 @@
+button{
+    background-color: rgb(29, 29, 71);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    margin: 2px;
+    align-self: center;
+}
+div.container{
+    background-color: lightblue;
+    width: 430px;
+    height:620px;
+    display: inline-block;
+    margin:auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:rgb(69, 146, 201) 20px solid; 
+    border-radius: 5%;
+}
+input{
+    width: 426px;
+    height: 100px;
+    background-color: lightpink;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    border-style: none;
+}
+button.symbol{
+    background-color:rgb(69, 146, 201);
+}
+button.equal, button.backspace{
+    background-color: rgb(155, 88, 184);
+}
+button.clear{
+    width: 430px;
+    height: 100px;
+    background-color: rgb(29, 29, 71);
+    margin-top: 2px;
+    border-radius: 0%;
+    margin-left: 0px;
+}
+button.symbol:hover{
+    background-color: blue;
+}
+button.equal:hover, button.backspace:hover{
+    background-color: purple;
+}
+button:hover{
+    background-color: rgb(87, 87, 205);
+}
